@@ -1,11 +1,45 @@
-langchain
-langgraph
-neo4j
-fastapi
-uvicorn
-torch torchvision torchaudio
-transformers
-sentence-transformers
-pandas scikit-learn
-milvus-client / pinecone-client  # whichever vector db you choose
-grad-cam  # for explainability
+# Core Framework
+langgraph==0.0.65
+langchain==0.1.10
+langchain-community==0.0.24
+langchain-openai==0.0.5
+
+# Graph Database
+neo4j==5.15.0
+py2neo==2021.2.3
+
+# Vector Store
+faiss-cpu==1.7.4
+chromadb==0.4.22
+
+# Deep Learning
+torch==2.1.2
+torchvision==0.16.2
+tensorflow==2.15.0
+opencv-python==4.9.0.80
+
+# ML & Data
+scikit-learn==1.4.0
+pandas==2.2.0
+numpy==1.26.3
+pillow==10.2.0
+
+# API & UI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+streamlit==1.31.0
+python-multipart==0.0.6
+
+# Utils
+python-dotenv==1.0.0
+pydantic==2.6.0
+pydantic-settings==2.1.0
+requests==2.31.0
+aiohttp==3.9.1
+
+# Embeddings
+sentence-transformers==2.3.1
+openai==1.10.0
+
+# Monitoring (optional)
+wandb==0.16.2
