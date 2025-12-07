@@ -1,41 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
 venv/
-*.egg-info/
-dist/
-build/
-
-# Jupyter
-.ipynb_checkpoints
-*.ipynb_checkpoints
-
-# Models & Data
+__pycache__/
+*.pyc
+.env
 *.pth
 *.h5
-*.pkl
-data/raw/*
-!data/raw/.gitkeep
-models/*/weights/
-*.ckpt
-
-# Environment
-.env
-.env.local
-
-# Neo4j
-neo4j/data/
-neo4j/logs/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# OS
+data/test_images/*
 .DS_Store
-Thumbs.db
+.ipynb_checkpoints
