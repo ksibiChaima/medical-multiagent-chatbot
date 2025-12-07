@@ -1,0 +1,11 @@
+langchain
+langgraph
+neo4j
+fastapi
+uvicorn
+torch torchvision torchaudio
+transformers
+sentence-transformers
+pandas scikit-learn
+milvus-client / pinecone-client  # whichever vector db you choose
+grad-cam  # for explainability
